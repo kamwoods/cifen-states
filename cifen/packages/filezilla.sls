@@ -1,0 +1,2 @@
+filezilla:
+  pkg.installed

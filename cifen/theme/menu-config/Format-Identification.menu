@@ -1,0 +1,12 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN" 
+"http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd"> 
+<Menu>
+  <Name>Applications</Name>
+  <Menu> 
+    <Name>Format Identification</Name> 
+    <Directory>Format-Identification.directory</Directory> 
+    <Include> 
+      <Category>Format Identification</Category> 
+    </Include> 
+  </Menu> <!-- End Format Identification --> 
+</Menu>

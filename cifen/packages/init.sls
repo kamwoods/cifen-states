@@ -1,0 +1,324 @@
+include:
+  - cifen.packages.antiword
+  - cifen.packages.audacity
+  - cifen.packages.aufs-tools
+  - cifen.packages.automake
+  - cifen.packages.autopoint
+  - cifen.packages.bchunk
+  - cifen.packages.bison
+  - cifen.packages.bless
+  - cifen.packages.brasero
+  - cifen.packages.build-essential
+  - cifen.packages.bulk-reviewer
+  - cifen.packages.ccrypt
+  - cifen.packages.cdrdao
+  - cifen.packages.chkrootkit
+  - cifen.packages.clamav
+  - cifen.packages.clamav-daemon
+  - cifen.packages.clamtk
+  - cifen.packages.clonezilla
+  - cifen.packages.cmake
+  - cifen.packages.curl
+  - cifen.packages.dbus-x11
+  - cifen.packages.dcfldd
+  - cifen.packages.dconf
+  - cifen.packages.default-jre
+  - cifen.packages.default-jdk
+  - cifen.packages.dialog
+  - cifen.packages.discover
+  - cifen.packages.disktype
+  - cifen.packages.dkms
+  - cifen.packages.docker
+  - cifen.packages.equivs
+  - cifen.packages.ewf-tools
+  - cifen.packages.expat
+  - cifen.packages.expect
+  - cifen.packages.fdutils
+  - cifen.packages.ffmpeg
+  - cifen.packages.filezilla
+  - cifen.packages.flex
+  - cifen.packages.foremost
+  - cifen.packages.g++
+  - cifen.packages.gadmin-rsync
+  - cifen.packages.gawk
+  - cifen.packages.gddrescue
+  - cifen.packages.ghex
+  - cifen.packages.gimp
+  - cifen.packages.git
+  - cifen.packages.grsync
+  - cifen.packages.gtkhash
+  - cifen.packages.guymager
+  - cifen.packages.hardinfo
+  - cifen.packages.hashdeep
+  - cifen.packages.hashrat
+  - cifen.packages.hdparm
+  - cifen.packages.hfsplus
+  - cifen.packages.hfsprogs
+  - cifen.packages.hfsutils
+  - cifen.packages.hfsutils-tcltk
+  - cifen.packages.icedax
+  - cifen.packages.jexiftoolgui
+  - cifen.packages.leptonica-progs
+  - cifen.packages.libafflib-dev
+  - cifen.packages.libappindicator1
+  - cifen.packages.libappindicator3-dev
+  - cifen.packages.libarchive-dev
+  - cifen.packages.libavcodec-extra
+  - cifen.packages.libboost-dev
+  - cifen.packages.libboost-filesystem-dev
+  - cifen.packages.libboost-program-options-dev
+  - cifen.packages.libboost-system-dev
+  - cifen.packages.libboost-test-dev
+  - cifen.packages.libbz2-dev
+  - cifen.packages.libcppunit
+  - cifen.packages.libcppunit-dev
+  - cifen.packages.libcrypto
+  - cifen.packages.libcurl4-openssl-dev
+  - cifen.packages.libdvdread
+  - cifen.packages.libevent-dev
+  - cifen.packages.libewf2
+  - cifen.packages.libexif-dev
+  - cifen.packages.libexpat1-dev
+  - cifen.packages.libfuse-dev
+  - cifen.packages.libicu-dev
+  - cifen.packages.libimage-exiftool-perl
+  - cifen.packages.libjpeg-dev
+  - cifen.packages.libmad0
+  - cifen.packages.libmagic-dev
+  - cifen.packages.libmysqlclient-dev
+  - cifen.packages.libncurses5-dev
+  - cifen.packages.libncursesw5-dev
+  - cifen.packages.libnss-myhostname
+  - cifen.packages.libparse-win32registry-perl
+  - cifen.packages.libpthread-stubs0-dev
+  - cifen.packages.libreadline-dev
+  - cifen.packages.libre2-dev
+  - cifen.packages.libsodium23
+  - cifen.packages.libsodium-dev
+  - cifen.packages.libsqlite3-dev
+  - cifen.packages.libssl-dev
+  - cifen.packages.libtalloc-dev
+  - cifen.packages.libtool
+  - cifen.packages.libtool-bin
+  - cifen.packages.libtre-dev
+  - cifen.packages.libtre5
+  - cifen.packages.libudev-dev
+  - cifen.packages.libusb-dev
+  - cifen.packages.libvhdi-dev
+  - cifen.packages.libvmdk-dev
+  - cifen.packages.libvte-common
+  - cifen.packages.libvte9
+  - cifen.packages.libxml2-dev
+  - cifen.packages.libxml2-utils
+  - cifen.packages.libxslt1-dev
+  - cifen.packages.linux-headers-generic
+  - cifen.packages.mate-utils
+  - cifen.packages.mediainfo
+  - cifen.packages.mencoder
+  - cifen.packages.mokutil
+  - cifen.packages.mplayer
+  - cifen.packages.mysql-client
+  - cifen.packages.nwipe
+  - cifen.packages.openssh
+  - cifen.packages.plymouth-themes
+  - cifen.packages.plymouth-x11
+  - cifen.packages.python3
+  - cifen.packages.python3-dev
+  - cifen.packages.python3-testresources
+  - cifen.packages.python3-numpy
+  - cifen.packages.python3-pip
+  - cifen.packages.python3-pyqt
+  - cifen.packages.python3-setuptools
+  - cifen.packages.python3-sip-dev
+  - cifen.packages.python3-tk
+  - cifen.packages.python3-virtualenv
+  - cifen.packages.pst-utils
+  - cifen.packages.sharutils
+  - cifen.packages.siegfried
+  - cifen.packages.sleuthkit
+  - cifen.packages.bulk-extractor
+  - cifen.packages.smartmontools
+  - cifen.packages.software-properties-common
+  - cifen.packages.squashfs-tools
+  - cifen.packages.ssdeep
+  - cifen.packages.sudo
+  - cifen.packages.swig
+  - cifen.packages.syslinux-utils
+  - cifen.packages.testdisk
+  - cifen.packages.tree
+  - cifen.packages.udisks2
+  - cifen.packages.unixodbc
+  - cifen.packages.unixodbc-dev
+  - cifen.packages.uuid-dev
+  - cifen.packages.vim
+  - cifen.packages.vlc
+  - cifen.packages.xdg-utils
+  - cifen.packages.xmount
+  - cifen.packages.xorriso
+  - cifen.packages.yad
+  - cifen.packages.zerofree
+  - cifen.packages.zlib1g-dev
+
+cifen-packages:
+  test.nop:
+    - name: cifen-packages
+    - require:
+      - sls: cifen.packages.antiword
+      - sls: cifen.packages.audacity
+      - sls: cifen.packages.aufs-tools
+      - sls: cifen.packages.automake
+      - sls: cifen.packages.autopoint
+      - sls: cifen.packages.bchunk
+      - sls: cifen.packages.bison
+      - sls: cifen.packages.bless
+      - sls: cifen.packages.brasero
+      - sls: cifen.packages.build-essential
+      - sls: cifen.packages.bulk-reviewer
+      - sls: cifen.packages.ccrypt
+      - sls: cifen.packages.cdrdao
+      - sls: cifen.packages.chkrootkit
+      - sls: cifen.packages.clamav
+      - sls: cifen.packages.clamav-daemon
+      - sls: cifen.packages.clamtk
+      - sls: cifen.packages.clonezilla
+      - sls: cifen.packages.cmake
+      - sls: cifen.packages.curl
+      - sls: cifen.packages.dbus-x11
+      - sls: cifen.packages.dcfldd
+      - sls: cifen.packages.dconf
+      - sls: cifen.packages.default-jre
+      - sls: cifen.packages.default-jdk
+      - sls: cifen.packages.dialog
+      - sls: cifen.packages.discover
+      - sls: cifen.packages.disktype
+      - sls: cifen.packages.dkms
+      - sls: cifen.packages.docker
+      - sls: cifen.packages.equivs
+      - sls: cifen.packages.ewf-tools
+      - sls: cifen.packages.expat
+      - sls: cifen.packages.expect
+      - sls: cifen.packages.fdutils
+      - sls: cifen.packages.ffmpeg
+      - sls: cifen.packages.filezilla
+      - sls: cifen.packages.flex
+      - sls: cifen.packages.foremost
+      - sls: cifen.packages.g++
+      - sls: cifen.packages.gadmin-rsync
+      - sls: cifen.packages.gawk
+      - sls: cifen.packages.gddrescue
+      - sls: cifen.packages.ghex
+      - sls: cifen.packages.gimp
+      - sls: cifen.packages.git
+      - sls: cifen.packages.grsync
+      - sls: cifen.packages.gtkhash
+      - sls: cifen.packages.guymager
+      - sls: cifen.packages.hardinfo
+      - sls: cifen.packages.hashdeep
+      - sls: cifen.packages.hashrat
+      - sls: cifen.packages.hdparm
+      - sls: cifen.packages.hfsplus
+      - sls: cifen.packages.hfsprogs
+      - sls: cifen.packages.hfsutils
+      - sls: cifen.packages.hfsutils-tcltk
+      - sls: cifen.packages.icedax
+      - sls: cifen.packages.jexiftoolgui
+      - sls: cifen.packages.leptonica-progs
+      - sls: cifen.packages.libafflib-dev
+      - sls: cifen.packages.libappindicator1
+      - sls: cifen.packages.libappindicator3-dev
+      - sls: cifen.packages.libarchive-dev
+      - sls: cifen.packages.libavcodec-extra
+      - sls: cifen.packages.libboost-dev
+      - sls: cifen.packages.libboost-filesystem-dev
+      - sls: cifen.packages.libboost-program-options-dev
+      - sls: cifen.packages.libboost-system-dev
+      - sls: cifen.packages.libboost-test-dev
+      - sls: cifen.packages.libbz2-dev
+      - sls: cifen.packages.libcppunit
+      - sls: cifen.packages.libcppunit-dev
+      - sls: cifen.packages.libcrypto
+      - sls: cifen.packages.libcurl4-openssl-dev
+      - sls: cifen.packages.libdvdread
+      - sls: cifen.packages.libevent-dev
+      - sls: cifen.packages.libewf2
+      - sls: cifen.packages.libexif-dev
+      - sls: cifen.packages.libexpat1-dev
+      - sls: cifen.packages.libfuse-dev
+      - sls: cifen.packages.libicu-dev
+      - sls: cifen.packages.libimage-exiftool-perl
+      - sls: cifen.packages.libjpeg-dev
+      - sls: cifen.packages.libmad0
+      - sls: cifen.packages.libmagic-dev
+      - sls: cifen.packages.libmysqlclient-dev
+      - sls: cifen.packages.libncurses5-dev
+      - sls: cifen.packages.libncursesw5-dev
+      - sls: cifen.packages.libnss-myhostname
+      - sls: cifen.packages.libparse-win32registry-perl
+      - sls: cifen.packages.libpthread-stubs0-dev
+      - sls: cifen.packages.libreadline-dev
+      - sls: cifen.packages.libre2-dev
+      - sls: cifen.packages.libsodium23
+      - sls: cifen.packages.libsodium-dev
+      - sls: cifen.packages.libsqlite3-dev
+      - sls: cifen.packages.libssl-dev
+      - sls: cifen.packages.libtalloc-dev
+      - sls: cifen.packages.libtool
+      - sls: cifen.packages.libtool-bin
+      - sls: cifen.packages.libtre-dev
+      - sls: cifen.packages.libtre5
+      - sls: cifen.packages.libudev-dev
+      - sls: cifen.packages.libusb-dev
+      - sls: cifen.packages.libvhdi-dev
+      - sls: cifen.packages.libvmdk-dev
+      - sls: cifen.packages.libvte-common
+      - sls: cifen.packages.libvte9
+      - sls: cifen.packages.libxml2-dev
+      - sls: cifen.packages.libxml2-utils
+      - sls: cifen.packages.libxslt1-dev
+      - sls: cifen.packages.linux-headers-generic
+      - sls: cifen.packages.mate-utils
+      - sls: cifen.packages.mediainfo
+      - sls: cifen.packages.mencoder
+      - sls: cifen.packages.mokutil
+      - sls: cifen.packages.mplayer
+      - sls: cifen.packages.mysql-client
+      - sls: cifen.packages.nwipe
+      - sls: cifen.packages.openssh
+      - sls: cifen.packages.plymouth-themes
+      - sls: cifen.packages.plymouth-x11
+      - sls: cifen.packages.python3
+      - sls: cifen.packages.python3-dev
+      - sls: cifen.packages.python3-testresources
+      - sls: cifen.packages.python3-numpy
+      - sls: cifen.packages.python3-pip
+      - sls: cifen.packages.python3-pyqt
+      - sls: cifen.packages.python3-setuptools
+      - sls: cifen.packages.python3-sip-dev
+      - sls: cifen.packages.python3-tk
+      - sls: cifen.packages.python3-virtualenv
+      - sls: cifen.packages.pst-utils
+      - sls: cifen.packages.sharutils
+      - sls: cifen.packages.siegfried
+      - sls: cifen.packages.sleuthkit
+      - sls: cifen.packages.bulk-extractor
+      - sls: cifen.packages.smartmontools
+      - sls: cifen.packages.software-properties-common
+      - sls: cifen.packages.squashfs-tools
+      - sls: cifen.packages.ssdeep
+      - sls: cifen.packages.sudo
+      - sls: cifen.packages.swig
+      - sls: cifen.packages.syslinux-utils
+      - sls: cifen.packages.testdisk
+      - sls: cifen.packages.tree
+      - sls: cifen.packages.udisks2
+      - sls: cifen.packages.unixodbc
+      - sls: cifen.packages.unixodbc-dev
+      - sls: cifen.packages.uuid-dev
+      - sls: cifen.packages.vim
+      - sls: cifen.packages.vlc
+      - sls: cifen.packages.xdg-utils
+      - sls: cifen.packages.xmount
+      - sls: cifen.packages.xorriso
+      - sls: cifen.packages.yad
+      - sls: cifen.packages.zerofree
+      - sls: cifen.packages.zlib1g-dev

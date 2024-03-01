@@ -1,0 +1,59 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN" 
+"http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd"> 
+<Menu> 
+  <Name>Applications</Name> 
+  <Menu> 
+    <Name>CIFEN</Name> 
+    <Directory>CIFEN.directory</Directory> 
+      <Menu>
+        <Name>Forensics-Reporting</Name>
+        <Directory><Forensics-Reporting.directory</Directory>
+        <Include> 
+          <Category>Forensics and Reporting</Category> 
+        </Include> 
+      </Menu>
+      <Menu>
+        <Name>Format-Identification</Name>
+        <Directory><Format-Identification.directory</Directory>
+        <Include> 
+          <Category>Format Identification</Category> 
+        </Include> 
+      </Menu>
+      <Menu>
+        <Name>Hashging-Tools</Name>
+        <Directory><Hashing-Tools.directory</Directory>
+        <Include> 
+          <Category>Hashing Tools</Category> 
+        </Include> 
+      </Menu>
+      <Menu>
+        <Name>Hex-Editors</Name>
+        <Directory><Hex-Editors.directory</Directory>
+        <Include> 
+          <Category>Hex Editors</Category> 
+        </Include> 
+      </Menu>
+      <Menu>
+        <Name>Imaging-Recovery</Name>
+        <Directory><Imaging-Recovery.directory</Directory>
+        <Include> 
+          <Category>Imaging and Recovery</Category> 
+        </Include> 
+      </Menu>
+      <Menu>
+        <Name>Malware-Detection</Name>
+        <Directory><Malware-Detection.directory</Directory>
+        <Include> 
+          <Category>Malware Detection</Category> 
+        </Include> 
+      </Menu>
+      <Menu>
+        <Name>Packaging-Transfer</Name>
+        <Directory><Packaging-Transfer.directory</Directory>
+        <Include> 
+          <Category>Packaging and Transfer</Category> 
+        </Include> 
+      </Menu>
+  </Menu> <!-- CIFEN --> 
+</Menu> 
+

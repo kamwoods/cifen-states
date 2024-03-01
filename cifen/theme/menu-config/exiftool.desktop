@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Type=Application
+Version=12.67
+Name=ExifTool
+GenericName=ForensicTool
+Comment=exiftool command-line tool
+Terminal=true
+Icon=/usr/share/icons/Humanity/apps/128/terminal.svg
+Exec=run-exiftool.sh
+Categories=Forensics and Reporting
+

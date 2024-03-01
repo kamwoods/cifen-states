@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=regrippy
+GenericName=regrippy
+Comment=regrippy command-line
+Terminal=true
+Icon=/usr/share/icons/Humanity/apps/128/terminal.svg
+Exec=run-regrippy.sh
+Categories=Forensics and Reporting
+

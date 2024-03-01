@@ -1,0 +1,22 @@
+release:
+  github:
+    owner: kamwoods
+    repo: cifen-states
+manifest:
+  version: 2
+  name: cifen
+  base_dir: cifen
+  modes:
+    - name: addon
+      state: cifen.addon
+    - name: dedicated
+      state: cifen.dedicated
+      default: true
+  supported_os:
+    - id: ubuntu
+      release: 22.04
+    - id: ubuntu
+      release: 24.04
+  saltstack:
+    pillars:
+      cifen_user_template: "{{ .User }}"

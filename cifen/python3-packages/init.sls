@@ -1,0 +1,64 @@
+include:
+  - cifen.python3-packages.pip
+  - cifen.python3-packages.analyzemft
+  - cifen.python3-packages.argparse
+  - cifen.python3-packages.bagit
+  - cifen.python3-packages.brunnhilde
+  - cifen.python3-packages.configobj
+  - cifen.python3-packages.construct
+  - cifen.python3-packages.dfxml-python
+  - cifen.python3-packages.docopt
+  - cifen.python3-packages.et_xmlfile
+  - cifen.python3-packages.fpdf2
+  - cifen.python3-packages.jdcal
+  - cifen.python3-packages.lxml
+  - cifen.python3-packages.matplotlib
+  - cifen.python3-packages.openpyxl
+  - cifen.python3-packages.opf-fido
+  - cifen.python3-packages.path
+  - cifen.python3-packages.pefile
+  - cifen.python3-packages.pyicu
+  - cifen.python3-packages.python-dateutil
+  - cifen.python3-packages.python-evtx
+  - cifen.python3-packages.python-registry
+  - cifen.python3-packages.pytsk3
+  - cifen.python3-packages.regrippy
+  - cifen.python3-packages.setuptools
+  - cifen.python3-packages.six
+  - cifen.python3-packages.unicodecsv
+  - cifen.python3-packages.wheel
+  - cifen.python3-packages.jinja2
+
+cifen-python3-packages:
+  test.nop:
+    - name: cifen-python3-packages
+    - require:
+      - sls: cifen.python3-packages.pip
+      - sls: cifen.python3-packages.analyzemft
+      - sls: cifen.python3-packages.argparse
+      - sls: cifen.python3-packages.bagit
+      - sls: cifen.python3-packages.brunnhilde
+      - sls: cifen.python3-packages.configobj
+      - sls: cifen.python3-packages.construct
+      - sls: cifen.python3-packages.dfxml-python
+      - sls: cifen.python3-packages.docopt
+      - sls: cifen.python3-packages.et_xmlfile
+      - sls: cifen.python3-packages.fpdf2
+      - sls: cifen.python3-packages.jdcal
+      - sls: cifen.python3-packages.lxml
+      - sls: cifen.python3-packages.matplotlib
+      - sls: cifen.python3-packages.openpyxl
+      - sls: cifen.python3-packages.opf-fido
+      - sls: cifen.python3-packages.path
+      - sls: cifen.python3-packages.pefile
+      - sls: cifen.python3-packages.pyicu
+      - sls: cifen.python3-packages.python-dateutil
+      - sls: cifen.python3-packages.python-evtx
+      - sls: cifen.python3-packages.python-registry
+      - sls: cifen.python3-packages.pytsk3
+      - sls: cifen.python3-packages.regrippy
+      - sls: cifen.python3-packages.setuptools
+      - sls: cifen.python3-packages.six
+      - sls: cifen.python3-packages.unicodecsv
+      - sls: cifen.python3-packages.wheel
+      - sls: cifen.python3-packages.jinja2

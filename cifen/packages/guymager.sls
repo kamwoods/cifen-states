@@ -1,0 +1,2 @@
+guymager:
+  pkg.installed

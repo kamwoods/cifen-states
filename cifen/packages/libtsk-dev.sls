@@ -1,0 +1,3 @@
+libtsk-dev:
+  pkg.installed
+

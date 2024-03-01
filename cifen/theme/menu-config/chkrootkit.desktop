@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Type=Application
+Version=0.55
+Name=ChkRootKit
+GenericName=ForensicTool
+Comment=Check binaries for evidence of rootkits
+Terminal=true
+Icon=/usr/share/icons/Humanity/apps/128/terminal.svg
+Exec=run-chkrootkit.sh
+Categories=Malware Detection
+

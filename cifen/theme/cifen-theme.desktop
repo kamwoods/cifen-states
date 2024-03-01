@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=cifen-theme
+Comment=Bash script to apply cifen theme on start
+Exec=/usr/share/cifen/cifen-theme.sh
+Icon=/usr/share/cifen/resources/images/cifeninstall.png
+Categories=System;
