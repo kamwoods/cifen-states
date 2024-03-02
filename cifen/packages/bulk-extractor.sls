@@ -9,7 +9,7 @@ include:
   - cifen.packages.build-essential
   - cifen.packages.libssl-dev
   - cifen.packages.flex
-  - cifen.packages.libewf
+  - cifen.packages.libewf2
   - cifen.packages.libewf-dev
   - cifen.packages.libexpat1-dev
   - cifen.packages.libre2-dev
@@ -33,7 +33,7 @@ bulk-extractor-source:
       - sls: cifen.packages.build-essential
       - sls: cifen.packages.libssl-dev
       - sls: cifen.packages.flex
-      - sls: cifen.packages.libewf
+      - sls: cifen.packages.libewf2
       - sls: cifen.packages.libewf-dev
       - sls: cifen.packages.libexpat1-dev
       - sls: cifen.packages.libre2-dev

@@ -25,7 +25,7 @@ sudo dpkg -i cast-v0.14.22-linux-amd64.deb
 **2. Install CIFEN with the following command:**
 
 ```
-cast install kamwoods/cifen-states
+sudo cast install kamwoods/cifen-states
 ```
 
 **3. Reboot the system.**
