@@ -1,9 +1,9 @@
-{% if grains['oscodename'] == "focal" %}
+{% if grains['oscodename'] == "jammy" %}
 
-libdvdread7:
+libdvdread8:
   pkg.installed
 
-{% elif grains['oscodename'] == "jammy" %}
+{% elif grains['oscodename'] == "noble" %}
 
 libdvdread8:
   pkg.installed
