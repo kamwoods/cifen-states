@@ -1,11 +1,11 @@
-{% if grains['oscodename'] == 'jammy' %}
+{% if grains['oscodename'] == "jammy" %}
 
 libcrypto++8:
   pkg.installed
 
-{% else %}
+{% elif grains['oscodename'] == "noble" %}
 
-libcrypto++6:
+libcrypto++8:
   pkg.installed
 
 {% endif %}

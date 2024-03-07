@@ -1,7 +1,6 @@
 include:
   - cifen.packages.antiword
   - cifen.packages.audacity
-  - cifen.packages.aufs-tools
   - cifen.packages.automake
   - cifen.packages.autopoint
   - cifen.packages.bchunk
@@ -39,7 +38,6 @@ include:
   - cifen.packages.flex
   - cifen.packages.foremost
   - cifen.packages.g++
-  - cifen.packages.gadmin-rsync
   - cifen.packages.gawk
   - cifen.packages.gddrescue
   - cifen.packages.ghex
@@ -165,7 +163,6 @@ cifen-packages:
     - require:
       - sls: cifen.packages.antiword
       - sls: cifen.packages.audacity
-      - sls: cifen.packages.aufs-tools
       - sls: cifen.packages.automake
       - sls: cifen.packages.autopoint
       - sls: cifen.packages.bchunk
@@ -203,7 +200,6 @@ cifen-packages:
       - sls: cifen.packages.flex
       - sls: cifen.packages.foremost
       - sls: cifen.packages.g++
-      - sls: cifen.packages.gadmin-rsync
       - sls: cifen.packages.gawk
       - sls: cifen.packages.gddrescue
       - sls: cifen.packages.ghex

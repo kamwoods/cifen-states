@@ -1,8 +1,8 @@
 {% set files = ['build_stoplist.py', 'bulk_diff.py', 'cda_tool.py', 'post_process_exif.py'] %}
-{% if grains['oscodename'] == 'focal' %}
-  {% set py_ver = 'python3.8' %}
-{% elif grains['oscodename'] == 'jammy' %}
+{% if grains['oscodename'] == 'jammy' %}
   {% set py_ver = 'python3.10' %}
+{% elif grains['oscodename'] == 'noble' %}
+  {% set py_ver = 'python3.12' %}
 {% endif %}
 
 include:
