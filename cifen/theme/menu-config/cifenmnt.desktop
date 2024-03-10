@@ -13,4 +13,4 @@ Exec=/usr/local/bin/cifen_mounter.py
 Terminal=false
 # Categorie entry according to version 1.0 of
 # http://www.freedesktop.org/wiki/Specifications/menu-spec
-Categories=Forensics and Reporting
+Categories=Disk Imaging

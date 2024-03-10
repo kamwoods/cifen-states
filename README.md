@@ -7,7 +7,7 @@
 
 **CIFEN is experimental. Included tools, scripts, desktop configuration, and build procedures may change frequently.**
 
-CIFEN is an environment designed to assist with digital preservation and data recovery tasks. It is built with Cast (https://github.com/ekristen/cast) and designed to be deployed in Ubuntu LTS releases.
+CIFEN is an environment designed to assist with digital preservation, recovery, and investigation tasks. It is deployed in Ubuntu 22.04LTS (24.04LTS support coming soon) using Cast (https://github.com/ekristen/cast).
 
 ## Installation
 
@@ -16,8 +16,8 @@ CIFEN is an environment designed to assist with digital preservation and data re
 Once installed, boot the system and log in. Open a terminal, and install cast using the following commands:
 
 ```
-wget https://github.com/ekristen/cast/releases/download/v0.14.22/cast-v0.14.22-linux-amd64.deb
-sudo dpkg -i cast-v0.14.22-linux-amd64.deb
+wget https://github.com/ekristen/cast/releases/download/v0.14.24/cast-v0.14.24-linux-amd64.deb
+sudo dpkg -i cast-v0.14.24-linux-amd64.deb
 ```
 
 (Note: More recent releases of should also work)

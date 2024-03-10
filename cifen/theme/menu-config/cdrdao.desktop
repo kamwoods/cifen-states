@@ -9,4 +9,4 @@ Comment=cdrdao command-line tool
 Terminal=true
 Icon=/usr/share/icons/Humanity/apps/128/terminal.svg
 Exec=run-cdrdao.sh
-Categories=Imaging and Recovery
+Categories=Disk Imaging

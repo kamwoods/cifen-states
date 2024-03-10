@@ -3,10 +3,10 @@
 <Menu>
   <Name>Applications</Name>
   <Menu> 
-    <Name>Imaging and Recovery</Name> 
-    <Directory>Imaging-Recovery.directory</Directory> 
+    <Name>Disk Imaging</Name> 
+    <Directory>Disk-Imaging.directory</Directory> 
     <Include> 
-      <Category>Imaging and Recovery</Category> 
+      <Category>Disk Imaging</Category> 
     </Include> 
-  </Menu> <!-- End Imaging and Recovery --> 
+  </Menu> <!-- End Disk Imaging --> 
 </Menu>

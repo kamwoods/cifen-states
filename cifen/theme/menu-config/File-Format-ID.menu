@@ -3,10 +3,10 @@
 <Menu>
   <Name>Applications</Name>
   <Menu> 
-    <Name>Format Identification</Name> 
-    <Directory>Format-Identification.directory</Directory> 
+    <Name>File Format ID</Name> 
+    <Directory>File-Format-ID.directory</Directory> 
     <Include> 
-      <Category>Format Identification</Category> 
+      <Category>File Format ID</Category> 
     </Include> 
-  </Menu> <!-- End Format Identification --> 
+  </Menu> <!-- End File Format ID --> 
 </Menu>

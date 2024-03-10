@@ -6,21 +6,21 @@
     <Name>CIFEN</Name> 
     <Directory>CIFEN.directory</Directory> 
       <Menu>
-        <Name>Forensics-Reporting</Name>
-        <Directory><Forensics-Reporting.directory</Directory>
+        <Name>Forensics</Name>
+        <Directory><Forensics.directory</Directory>
         <Include> 
-          <Category>Forensics and Reporting</Category> 
+          <Category>Forensics</Category> 
         </Include> 
       </Menu>
       <Menu>
-        <Name>Format-Identification</Name>
-        <Directory><Format-Identification.directory</Directory>
+        <Name>File-Format-ID</Name>
+        <Directory><File-Format-ID.directory</Directory>
         <Include> 
-          <Category>Format Identification</Category> 
+          <Category>File Format ID</Category> 
         </Include> 
       </Menu>
       <Menu>
-        <Name>Hashging-Tools</Name>
+        <Name>Hashing-Tools</Name>
         <Directory><Hashing-Tools.directory</Directory>
         <Include> 
           <Category>Hashing Tools</Category> 
@@ -34,10 +34,10 @@
         </Include> 
       </Menu>
       <Menu>
-        <Name>Imaging-Recovery</Name>
-        <Directory><Imaging-Recovery.directory</Directory>
+        <Name>Disk-Imaging</Name>
+        <Directory><Disk-Imaging.directory</Directory>
         <Include> 
-          <Category>Imaging and Recovery</Category> 
+          <Category>Disk Imaging</Category> 
         </Include> 
       </Menu>
       <Menu>

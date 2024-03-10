@@ -3,10 +3,10 @@
 <Menu>
   <Name>Applications</Name>
   <Menu> 
-    <Name>Forensics and Reporting</Name> 
-    <Directory>Forensics-Reporting.directory</Directory> 
+    <Name>Forensics</Name> 
+    <Directory>Forensics.directory</Directory> 
     <Include> 
-      <Category>Forensics and Reporting</Category> 
+      <Category>Forensics</Category> 
     </Include> 
-  </Menu> <!-- End Forensics and Reporting --> 
+  </Menu> <!-- End Forensics --> 
 </Menu>

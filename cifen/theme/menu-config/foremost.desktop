@@ -9,4 +9,4 @@ Comment=foremost
 Terminal=true
 Icon=/usr/share/icons/Humanity/apps/128/terminal.svg
 Exec=run-foremost.sh
-Categories=Forensics and Reporting
+Categories=Forensics

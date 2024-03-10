@@ -9,5 +9,4 @@ Comment=regrippy command-line
 Terminal=true
 Icon=/usr/share/icons/Humanity/apps/128/terminal.svg
 Exec=run-regrippy.sh
-Categories=Forensics and Reporting
-
+Categories=Forensics
