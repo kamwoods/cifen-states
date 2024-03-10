@@ -9,4 +9,4 @@ Comment=bulk_extractor
 Terminal=true
 Icon=/usr/share/icons/Humanity/apps/128/terminal.svg
 Exec=run-bulkextractor.sh
-Categories=Forensics and Reporting
+Categories=Forensics

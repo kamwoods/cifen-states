@@ -9,4 +9,4 @@ Comment=antiword command-line tool
 Terminal=true
 Icon=/usr/share/icons/Humanity/apps/128/terminal.svg
 Exec=run-antiword.sh
-Categories=Forensics and Reporting
+Categories=Forensics

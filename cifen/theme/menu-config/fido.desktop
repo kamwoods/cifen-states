@@ -9,4 +9,4 @@ Comment=FIDO command-line
 Terminal=true
 Icon=/usr/share/icons/Humanity/apps/128/terminal.svg
 Exec=run-fido.sh
-Categories=Format Identification
+Categories=File Format ID

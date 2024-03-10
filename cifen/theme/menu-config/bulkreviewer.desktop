@@ -8,4 +8,4 @@ GenericName=ForensicTool
 Comment=bulk-reviewer
 Icon=/usr/share/icons/cifen/bulk-reviewer.png
 Exec=bulk-reviewer
-Categories=Forensics and Reporting
+Categories=Forensics

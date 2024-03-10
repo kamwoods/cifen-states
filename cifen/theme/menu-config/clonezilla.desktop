@@ -9,4 +9,4 @@ Comment=Clonezilla command-line tool
 Terminal=true
 Icon=/usr/share/icons/Humanity/apps/128/terminal.svg
 Exec=run-clonezilla.sh
-Categories=Imaging and Recovery
+Categories=Disk Imaging
