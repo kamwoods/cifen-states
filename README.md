@@ -16,8 +16,8 @@ CIFEN is an environment designed to assist with digital preservation, recovery, 
 Once installed, boot the system and log in. Open a terminal, and install cast using the following commands:
 
 ```
-wget https://github.com/ekristen/cast/releases/download/v0.14.24/cast-v0.14.24-linux-amd64.deb
-sudo dpkg -i cast-v0.14.24-linux-amd64.deb
+wget https://github.com/ekristen/cast/releases/download/v0.14.47/cast-v0.14.47-linux-amd64.deb
+sudo dpkg -i cast-v0.14.47-linux-amd64.deb
 ```
 
 (Note: More recent releases of should also work)
